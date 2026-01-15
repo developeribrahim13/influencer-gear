@@ -108,6 +108,7 @@ header #banner .bnr-txt-div button{
     border-radius: 41px;
     border-style: none;
     padding: 15px 24px;
+    cursor: pointer;
 }
 
 header #banner .bnr-img-div{
@@ -122,6 +123,19 @@ header #banner .bnr-img-div{
 }
 
 /* banner section end */
+/* header section end */
+
+/* main section start */
+/* advertise section start */
+ 
+main #adverstise{
+    display: flex;
+    justify-content: center;
+    gap: 61px;
+    align-items: center;
+}
+
+/* adverstise sectin end */
 
 @media screen and (max-width:576px){
     
@@ -193,6 +207,21 @@ header #banner .bnr-img-div{
     }
 
     /* banner section end */
-
     /* header seciton end */
+
+    /* main section start */
+    /* advertise section start */
+
+    main #adverstise{
+        flex-wrap: wrap;
+        gap:30px;
+        width: 90%;
+        margin: 50px auto 0;
+    }
+
+    main #adverstise img{
+        width: 18%;
+    }
+
+    /* advertise section end */
 }
