@@ -274,11 +274,62 @@ main #join-now .container .jn-txt-div button{
     background-color: #E02C6D;
 }
 /* join now section end */
+/* main section end */
+
+/* footer section start */
+footer{
+    max-width: 1440px;
+    padding: 50px 589px;
+    background-color: #0A0826;
+    margin: 100px auto 0;
+}
+
+footer #last-part{
+    width: 262px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer #last-part .txt{
+    text-align: center;
+}
+
+footer #last-part .txt h2{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+footer #last-part .txt p{
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 24px;
+    color:#D9DBE1;
+    margin-top: 3px;
+}
+
+footer #last-part .links{
+    margin-top: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+footer #last-part .links a{
+    color: white;
+    background-color: #cacbcf44;
+    padding:10px;
+    border-radius: 50%;
+    font-size: 16px;
+}
+/* footer section closed */
 
 
 
-
-
+/* responsive design part */
 
 @media screen and (max-width:576px){
     
@@ -444,4 +495,33 @@ main #join-now .container .jn-txt-div button{
     }
 
     /* join now section end */
+
+    /* footer section start */
+    footer{
+        width: 100%;
+        padding: 30px 50px;
+        justify-content: center;
+        display: flex;
+    }
+
+    footer #last-part .txt h2{
+        font-size: 16px;
+    }
+
+    footer #last-part .txt p{
+        font-size: 12px;
+    }
+
+    footer #last-part .links{
+        margin-top: 10px;
+        gap:12px;
+
+    }
+
+    footer #last-part .links a{
+        font-size: 10px;
+        padding: 3px;
+    }
+
+    /* footer section end */
 }
