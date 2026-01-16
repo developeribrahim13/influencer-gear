@@ -216,10 +216,7 @@ main #adverstise{
     main #collection .see-more{
         display: flex;
         justify-content: flex-end;
-    }
-
-    main #collection .see-more .hd, .hd1{
-        visibility: hidden;
+        width: 1050px;
     }
 
     main #collection .see-more .arrow{
@@ -229,14 +226,54 @@ main #adverstise{
         text-align: right;
         margin-top: 10px;
         border: none;
-        background-color: white;
+        background-color: transparent;
         cursor: pointer;
     }
 
 /* collection section end */
 
+/* join now section start */
 
+main #join-now{
+    margin: 100px 165px 0;
+}
 
+main #join-now .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 96px;
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+main #join-now .container .jn-txt-div h1{
+    font-size: 38px;
+    line-height: 60px;
+    font-weight: bold;
+    color: #0A0826;
+    margin-bottom: 16px;
+}
+
+main #join-now .container .jn-txt-div p{
+font-size: 16px;
+line-height: 28px;
+font-weight: bold;
+color: #6C6C6C;
+margin-bottom: 16px;
+max-width: 501px;
+}
+
+main #join-now .container .jn-txt-div button{
+    padding: 12px 24px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    background-color: #E02C6D;
+}
+/* join now section end */
 
 
 
@@ -335,15 +372,13 @@ main #adverstise{
 
     main #collection{
         margin:60px 50px 0;
-        gap: 0;
+        gap: 30px;
         }
 
       main #collection h3{
-        /* display: block; */
         font-size: 18px;
         text-align: center;
         line-height: 0px;
-        margin-bottom: 35px;
     }
 
     main #collection .card-section{
@@ -366,10 +401,7 @@ main #adverstise{
 
     main #collection .see-more{
         flex-direction: column;
-    }
-
-    main #collection .see-more .hd{
-        display: none;
+        max-width: 345px;
     }
 
     main #collection .see-more .arrow{
@@ -379,4 +411,37 @@ main #adverstise{
     }
 
     /* collection section end */
+
+    /* join now section start */
+
+    main #join-now{
+        margin: 30px 2px;
+    }
+
+    main #join-now .container{
+        flex-direction: column-reverse;
+        min-width: 350px;
+        gap: 30px;
+        /* margin: 2px; */
+    }
+
+    main #join-now .container .jn-txt-div{
+        padding: 15px;
+        text-align: center;
+    }
+
+    main #join-now .container .jn-txt-div h1{
+        font-size: 24px;
+        line-height: 35px;
+    }
+
+    main #join-now .container .jn-img-div{
+        width: 90%;
+    }
+
+    main #join-now .container .jn-img-div img{
+        width: 100%;
+    }
+
+    /* join now section end */
 }
