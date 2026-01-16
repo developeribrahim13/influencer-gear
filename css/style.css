@@ -213,16 +213,27 @@ main #adverstise{
         font-weight: bold;
     }
 
-    main #collection .card-section .arrow{
+    main #collection .see-more{
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    main #collection .see-more .hd, .hd1{
+        visibility: hidden;
+    }
+
+    main #collection .see-more .arrow{
         color: #E02C6D;
         font-size: 16px;
         font-weight: bold;
         text-align: right;
-        /* margin: 25px 0 0 500px; */
-        border: 1px solid red;
+        margin-top: 10px;
+        border: none;
+        background-color: white;
+        cursor: pointer;
     }
 
-/* collection sectin end */
+/* collection section end */
 
 
 
@@ -324,14 +335,15 @@ main #adverstise{
 
     main #collection{
         margin:60px 50px 0;
+        gap: 0;
         }
 
       main #collection h3{
         /* display: block; */
-        font-size: 16px;
+        font-size: 18px;
         text-align: center;
-        width: 100%;
         line-height: 0px;
+        margin-bottom: 35px;
     }
 
     main #collection .card-section{
@@ -350,6 +362,20 @@ main #adverstise{
     main #collection .card-section .card p{
         font-weight: 400;
         margin-bottom: 10px;
+    }
+
+    main #collection .see-more{
+        flex-direction: column;
+    }
+
+    main #collection .see-more .hd{
+        display: none;
+    }
+
+    main #collection .see-more .arrow{
+        font-weight: 600;
+        font-size: 14px;
+        margin-top: 0px;
     }
 
     /* collection section end */
